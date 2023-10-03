@@ -1,0 +1,14 @@
+Aplicações: Sul e Nordeste
+
+Sul
+	Estados: Paraná, Santa Catarina e Rio Grande do Sul
+	
+Nordeste
+	Estados: Rio Grande do Norte e Pernambuco
+
+Estado
+	História
+	População
+	Aspectos Naturais
+		relevo
+		Clima

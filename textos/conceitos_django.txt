@@ -1,0 +1,41 @@
+a função "path" da biblioteca "django.urls" → cria um endereço para o navegador.
+
+a função "include" da biblioteca "django.urls" → anexa um arquivo, normalmente em um endereço.
+
+request → pega a requisição (é usado como argumento numa função que da uma resposta para página web)
+	já é imbutido no python
+
+Requição → Quando acessamos uma página é enviado uma requisição para o servidor
+
+
+pip freeze > [nome arquivo] → criar um arquivos com os pacotes do ambiente virtual
+
+csrg tolken
+crosside request forge
+
+dreequest
+
+Template tags
+	{{}} → exbe uma varíavel do backend no frontend - tag de print
+	{% if [booleano] %} {% endif%} → Usada para criar condições lógicas em seu template para renderizar conteúdo com base em uma expressão condicional.
+		
+	{% if [booleano]%} {% else %} {% endif %} → caso contrario "{% else %}"
+	
+	{% if [booleano]%} {% elif %} {% endif %} → senão "{% elif %}"
+	
+	{% for %} {% endfor %} → usada para criar loop e fazer interações com listas ou dicionarios
+	
+	
+	
+	
+	https://docs.djangoproject.com/pt-br/4.2/ref/templates/builtins/
+	https://pt.stackoverflow.com/questions/195128/qual-%C3%A9-a-diferen%C3%A7a-entre-projeto-project-e-aplica%C3%A7%C3%A3o-app-no-django
+	https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-view
+	
+	
+	
+Estrutura de pasta
+	projeto/
+	aplicações/
+	static/ (arquivos estaticos)
+	templates/
