@@ -1,5 +1,7 @@
 Aplicações: Sul e Nordeste
 
+(Foto: Wikipedia)
+
 Sul
 	Estados: Paraná, Santa Catarina e Rio Grande do Sul
 	
@@ -8,7 +10,6 @@ Nordeste
 
 Estado
 	História
-	População
-	Aspectos Naturais
-		relevo
-		Clima
+	Cultura
+	geomorfologia
+	clima
