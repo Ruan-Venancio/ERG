@@ -20,6 +20,8 @@ from . import views
 urlpatterns = [
     path('', views.index, name='sul'),
     path('/santa-catarina', views.sc, name='santa_catarina'),
+    path('/parana', views.pr, name='parana'),
+    path('/rio-grande-do-sul', views.rs, name='rs'),
     
 
 ]
