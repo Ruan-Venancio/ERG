@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'nordeste/css/style.css' %}">
+    <title>Regiões do Brasil</title>
+</head>
+<body>
+    <h1 id="text">ESTADOS DA REGIÃO NORDESTE</h1>
+    <div id="flex-container">
+        <div>
+            <a href="{% url 'pe' %}"><img src="{% static 'nordeste/img/bandeiras/Bandeira_de_Pernambuco.svg' %}" alt=""></a>
+            <p>Pernambuco</p>
+        </div>
+        
+        <div>
+            <a href="{% url 'rn' %}"><img src="{% static 'nordeste/img/bandeiras/Bandeira_do_Rio_Grande_do_Norte.svg' %}" alt=""></a>
+            <p>Rio Grande do Norte</p>
+        </div>
+    </div>
+    <a href="{% url 'regioes' %}">Voltar</a>
+    <footer>
+        <p>Feito por: Ruan Venâncio e Thiago</p>
+        <img src="{% static 'sul/img/logo_ifce.png' %}" id="logo-ifce" alt="">
+    </footer>
+</body>
+</html>

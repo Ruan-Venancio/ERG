@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santa Catarina</title>
+    <link rel="stylesheet" href="{% static 'nordeste/css/style_paises.css' %}">
+</head>
+<body>
+    <div id="container1">
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="{% url 'nordeste' %}">Menu</a></li>
+                <li><a href="{% url 'pe' %}">Pernambuco</a></li>
+                <li><a href="{% url 'rn' %}">Rio Grande do Norte</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1 id="title1">História</h1>
+            <p>
+                A história de Pernambuco, um estado no nordeste do Brasil, é rica e diversificada. Aqui estão alguns pontos-chave:
+                <br><br>
+                Colonização Portuguesa: Os portugueses começaram a colonizar a região que hoje é Pernambuco no início do século XVI. A cidade de Olinda foi fundada em 1537, tornando-se uma das mais antigas do Brasil.
+                <br><br>
+                Cana-de-açúcar e Engenhos: Pernambuco desempenhou um papel fundamental na produção de açúcar durante o período colonial, com a construção de engenhos de açúcar. Isso atraiu a atenção de invasores estrangeiros, como os holandeses, que ocuparam a região durante parte do século XVII.
+                <br><br>
+                Insurreição Pernambucana: Em 1817, Pernambuco foi palco de uma revolta conhecida como a "Revolução Pernambucana", que buscava a independência da região do domínio português, mas foi reprimida pelas autoridades coloniais.
+                <br><br>
+                Abolição da Escravatura: Pernambuco teve um papel significativo no movimento pela abolição da escravatura no Brasil, que foi oficialmente alcançada em 1888 com a assinatura da Lei Áurea.
+                <br><br>
+                República Velha e Movimentos Sociais: Durante a República Velha (1889-1930), Pernambuco foi um centro de agitação política e social, com destaque para o movimento tenentista e a Revolução de 1930, que levou Getúlio Vargas ao poder.
+                <br><br>
+                Cultura e Carnaval: Pernambuco é conhecido por sua rica cultura, incluindo o famoso Carnaval de Recife e Olinda, o frevo, o maracatu e o forró.
+                <br><br>
+                Desenvolvimento Econômico: Nas décadas mais recentes, o estado passou por um significativo desenvolvimento econômico, especialmente no setor de tecnologia, turismo e indústria.
+                <br><br>
+                Essa é uma visão geral da história de Pernambuco, que desempenhou um papel importante na formação do Brasil e na preservação de sua cultura única.
+            </p>
+            <h1 id="title2">Geomorfologia</h1>
+            <p>
+                A geomorfologia de Pernambuco é caracterizada por uma diversidade de formas de relevo devido à sua localização no nordeste do Brasil, entre o litoral e a região semiárida do sertão. Aqui estão algumas características geomorfológicas do estado
+                <br><br>
+                Planícies Costeiras: A faixa litorânea de Pernambuco consiste em planícies costeiras e praias, com áreas de manguezais e estuários. Recife, a capital do estado, está situada em uma planície costeira.
+                <br><br>
+                Zona da Mata: A leste, a região da Zona da Mata é caracterizada por colinas e vales suaves. É uma área fértil e propícia para a agricultura, incluindo o cultivo de cana-de-açúcar.
+                <br><br>
+                Agreste: A região do Agreste fica entre a Zona da Mata e o sertão. Possui um relevo mais acidentado, com serras e colinas. Essa região é conhecida por sua produção de café e pela presença de cidades como Caruaru.
+                <br><br>
+                Sertão:A maior parte do interior de Pernambuco é ocupada pelo sertão, caracterizado por um relevo árido, com baixas altitudes e pequenos planaltos. A vegetação é adaptada às condições secas.
+                <br><br>
+                Chapadas e Serras: Pernambuco também abriga chapadas e serras, como a Serra da Borborema, que corta o estado. Elas oferecem uma paisagem montanhosa e vales profundos.
+                <br><br>
+                Vale do São Francisco: No oeste do estado, o rio São Francisco forma um cânion e uma paisagem de vales profundos, conhecida pela produção de uvas e vinhos na região do Vale do São Francisco.
+            </p>
+            <h1 id="title3">Clima</h1>
+            <p>
+                O clima de Pernambuco é o tropical com variações locais marcadas pela posição geográfica, pela falta de chuvas e pelos sistemas meteorológicos atuantes na região. Assim, pode-se dividir o estado em quatro tipos climáticos: tropical quente e úmido (litoral), tropical quente subúmido e seco (Zona da Mata), tropical de altitude (norte) e tropical quente e seco (Agreste e Sertão).
+                <br><br>
+                Por estar localizado entre sete e oito graus abaixo da Linha do Equador, Pernambuco sofre influência direta da Zona da Convergência Intertropical Tropical (ZCIT), que promove uma precipitação constante em todas as áreas afetadas. Entretanto, muitas massas de ar atuam sobre o estado, desviando a chuva do território pernambucano.
+                <br><br>
+                Pelo menos quatro sistemas meteorológicos além da ZCIT atuam sobre o estado, sendo eles: Vórtices Ciclônicos em Ar Superior, Cavado e Instabilidades de Frentes Frias, Ondas de Leste e Sistemas de Brisa. Isso faz com que as chuvas se concentrem especialmente no Litoral e na Zona da Mata, caracterizando o clima destas mesorregiões como tropical úmido.
+                <br><br>
+                No litoral, as chuvas se prolongam ao longo de quase todo o ano com um curto período de seca, geralmente registrado na primavera. A partir de fevereiro, a porção litorânea do estado passa a registrar maiores índices de pluviosidade, atingindo picos no mês de junho, quando o leste do estado fica sob plena estação chuvosa. Em anos normais, a precipitação média anual na região pode chegar a 2050 mm. As temperaturas médias ficam entre 25 e 30ºC no litoral pernambucano, expressando amplitudes térmicas anuais próximas a 5ºC.
+                <br><br>
+                O regime de ventos na região é considerado regular, em geral, direcionado no setor Leste-Sudeste. Ventos alísios e brisas marítimas também possuem forte influência no clima local, incidindo não apenas no clima, mas também na formação vegetal e morfológica do litoral pernambucano.
+                <br><br>
+                Aquém do litoral, mais de 70% do estado de Pernambuco está inserido no chamado Polígono das Secas, região marcada pela média anual pluviométrica em torno dos 800 mm. Dos 185 municípios pernambucanos, 145 ficam na área compreendida pelo Polígono das Secas. Tanto as mesorregiões do Sertão e do Agreste como a do São Francisco estão situadas nesta área, caracterizada pelo clima semiárido.
+                <br><br>
+                No Sertão do São Francisco, a sudoeste do estado, a média pluviométrica anual não costuma ultrapassar os 500 mm. Entre os meses de janeiro e abril são registrados os maiores índices de chuva na região, que podem chegar a 400 mm. Por outro lado, o inverno é o período em que a expectativa de chuvas na região é a mais baixa. O máximo esperado para um mês é de 18 mm. Ainda assim, os registros mostram que, em alguns meses da estação, não caiu uma gota do céu.
+                <br><br>
+                Nos últimos anos, o número de desastres causados pela estiagem e pela seca foi muito elevado. Somente em 2012, registrou-se 184 ocorrências de desastres no estado. Entre 1991 e 2012, Araripina, Iguaraci e Iati (no Sertão Pernambuco), Taquaratinga (no Agreste) e Taquaratinga do Norte (no São Francisco Pernambucano) foram os municípios mais afetados pelos eventos de estiagem e seca. O aumento populacional em áreas vulneráveis e a destruição da vegetação natural por meio das queimadas acarretam em uma piora do quadro na região, a ponto de expandir o semiárido sobre áreas ainda não atingidas.</p>
+            <h1 id="title4">Cultura</h1>
+            <p>
+                Frevo: O frevo é um gênero musical e uma dança típica de Pernambuco, conhecido por sua energia e ritmo acelerado. Ele é parte fundamental do Carnaval do estado.
+                <br><br>
+                Maracatu: O maracatu é uma manifestação cultural afro-brasileira que envolve música, dança e trajes luxuosos. Há diferentes tipos de maracatu em Pernambuco, como o Maracatu Nação e o Maracatu Rural.
+                <br><br>
+                Coco: O coco é um gênero musical e uma dança tradicional do nordeste do Brasil, e Pernambuco tem uma forte tradição de coco, com grupos que preservam essa manifestação cultural.
+                <br><br>
+                Literatura: Pernambuco tem produzido uma série de escritores e poetas renomados, como Gilberto Freyre, João Cabral de Melo Neto e Clarice Lispector.
+                <br><br>
+                Arte e artesanato: A região é conhecida por sua produção de artesanato, incluindo peças de barro, cerâmica, bordados e rendas, especialmente em cidades como Olinda e Recife.
+                <br><br>
+                Religiões de matriz africana: A cultura religiosa afro-brasileira desempenha um papel significativo em Pernambuco, com práticas como o candomblé e a umbanda.
+                <br><br>
+                Festas populares: Pernambuco tem uma variedade de festas populares, incluindo o Carnaval de Olinda, a Festa de São João, e o Encontro de Maracatus.
+            </p>
+        </main>
+        <footer>
+            <p>Feito por: Ruan Venâncio e Thiago</p>
+            <img src="{% static 'nordeste/img/logo_ifce.png' %}" id="logo-ifce" alt="">
+        </footer>
+    </div>
+    <section id="sumario">
+        <ul>
+            <li><a href="#title1">História</a></li>
+            <hr>
+            <li><a href="#title2">Geomorfologia</a></li>
+            <hr>
+            <li><a href="#title3">Clima</a></li>
+            <hr>
+            <li><a href="#title4">Cultura</a></li>
+            <hr>
+        </ul>
+    </section>
+</body>
+</html>

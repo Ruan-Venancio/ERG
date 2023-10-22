@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 {% load static %}
 
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Regiões do Brasil</title>
     <link rel="stylesheet" href="{% static 'regioes/css/style.css' %}">
+    <title>Regiões do Brasil</title>
 </head>
 <body>
-    <div id="regioes">
-        <a href="{% url 'sul' %}"><img src="{% static 'regioes/img/Serra_da_Graciosa-sul.jpg' %}" alt=""></a>
-        <a href=""><img src="" alt=""></a> 
+    <h1 id="text">REGIÕES DO BRASIL</h1>
+    <div id="flex-container">
+        <div>
+            <a href="{% url 'sul' %}"><img src="{% static 'regioes/img/Serra_da_Graciosa-sul.jpg' %}" alt=""></a>
+            <p>sul</p>
+        </div>
+        
+        <div>
+            <a href="{% url 'nordeste' %}"><img src="{% static 'regioes/img/Porto_de_Galinhas-nordeste.jpg' %}" alt=""></a>
+            <p>nordeste</p>
+        </div>
     </div>
+    <footer>
+        <p>Feito por: Ruan Venâncio e Thiago</p>
+        <img src="{% static 'regioes/img/logo_ifce.png' %}" id="logo-ifce" alt="">
+    </footer>
 </body>
 </html>

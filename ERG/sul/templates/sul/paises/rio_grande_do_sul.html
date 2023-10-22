@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rio Grande do Sul</title>
+    <link rel="stylesheet" href="{% static 'sul/css/style_paises.css' %}">
+</head>
+<body>
+    <div id="container1">
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="{% url 'sul' %}">Menu</a></li>
+                <li><a href="{% url 'santa_catarina' %}">Santa Catarina</a></li>
+                <li><a href="{% url 'parana' %}">Paraná</a></li>
+                <li><a href="{% url 'rs' %}">Rio Grande do Sul</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1 id="title1">História</h1>
+            <p>
+                A história do Rio Grande do Norte remonta à época do Brasil colonial, quando os portugueses estabeleceram as primeiras colônias na região.
+                <br><br>
+                Durante o período colonial, a economia da região estava centrada na produção de cana-de-açúcar, com a presença de engenhos de açúcar.
+                <br><br>
+                O estado desempenhou um papel importante na luta contra a invasão holandesa no século XVII, com destaque para a batalha de Guararapes.
+                <br><br>
+                Em 1889, com a Proclamação da República, o Rio Grande do Norte se tornou um estado brasileiro
+            </p>
+            <h1 id="title2">Geomorfologia</h1>
+            <p>
+                O Rio Grande do Norte possui uma geologia variada, incluindo planícies costeiras, dunas de areia, serras e planaltos.
+                <br><br>
+                As famosas dunas de Genipabu, próximas à capital Natal, são uma característica marcante da paisagem e atraem muitos turistas.
+                <br><br>
+                A região também possui formações calcárias e grutas, como as Grutas de São João do Sabugi.
+            </p>
+            <h1 id="title3">Clima</h1>
+            <p>
+                O clima do Rio Grande do Norte é predominantemente tropical, com uma estação seca pronunciada.
+                <br><br>
+                As temperaturas são elevadas ao longo do ano, com médias acima de 25°C.
+                <br><br>
+                A chuva é mais concentrada durante o período chuvoso, que geralmente ocorre de fevereiro a maio.
+                </p>
+            <h1 id="title4">Cultura</h1>
+            <p>
+                A cultura do Rio Grande do Norte é influenciada por diversas tradições, incluindo indígena, africana e europeia.
+                <br><br>
+                A música é uma parte importante da cultura, com gêneros como o forró e o baião sendo populares.
+                <br><br>
+                A culinária inclui pratos tradicionais como a carne de sol, macaxeira (aipim) e cuscuz.
+                <br><br>
+                O estado também é conhecido por festas populares, como o Carnaval de Natal e o Carnaval de Caicó.
+            </p>
+        </main>
+        <footer>
+            <p>Feito por: Ruan Venâncio e Thiago</p>
+            <img src="{% static 'sul/img/logo_ifce.png' %}" id="logo-ifce" alt="">
+        </footer>
+    </div>
+    <section id="sumario">
+        <ul>
+            <li><a href="#title1">História</a></li>
+            <hr>
+            <li><a href="#title2">Geomorfologia</a></li>
+            <hr>
+            <li><a href="#title3">Clima</a></li>
+            <hr>
+            <li><a href="#title4">Cultura</a></li>
+            <hr>
+        </ul>
+    </section>
+</body>
+</html>

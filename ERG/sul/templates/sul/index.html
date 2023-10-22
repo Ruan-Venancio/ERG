@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 {% load static %}
 
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Região Sul</title>
+    <link rel="stylesheet" href="{% static 'sul/css/style.css' %}">
+    <title>Regiões do Brasil</title>
 </head>
 <body>
-    <a href="{% url 'santa_catarina' %}"><img src="{% static 'sul/img/bandeiras/Bandeira_de_Santa_Catarina.svg' %}" alt=""></a>
-    <a href=""><img src="" alt=""></a> 
+    <h1 id="text">ESTADOS DA REGIÃO SUL</h1>
+    <div id="flex-container">
+        <div>
+            <a href="{% url 'santa_catarina' %}"><img src="{% static 'sul/img/bandeiras/Bandeira_de_Santa_Catarina.svg' %}" alt=""></a>
+            <p>Santa Catarina</p>
+        </div>
+        
+        <div>
+            <a href="{% url 'parana' %}"><img src="{% static 'sul/img/bandeiras/Bandeira_do_Paraná.svg' %}" alt=""></a>
+            <p>Paraná</p>
+        </div>
+        
+        <div>
+            <a href="{% url 'rs' %}"><img src="{% static 'sul/img/bandeiras/Bandeira_do_Rio_Grande_do_Sul.svg.png' %}" alt=""></a>
+            <p>Rio Grande do Sul</p>
+        </div>
+    </div>
+    <a href="{% url 'regioes' %}">Voltar</a>
+    <footer>
+        <p>Feito por: Ruan Venâncio e Thiago</p>
+        <img src="{% static 'sul/img/logo_ifce.png' %}" id="logo-ifce" alt="">
+    </footer>
 </body>
 </html>

@@ -1,11 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+{% load static %}
+
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Santa Catarina</title>
+    <link rel="stylesheet" href="{% static 'sul/css/style_paises.css' %}">
 </head>
 <body>
-    
+    <div id="container1">
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="{% url 'sul' %}">Menu</a></li>
+                <li><a href="{% url 'santa_catarina' %}">Santa Catarina</a></li>
+                <li><a href="{% url 'parana' %}">Paraná</a></li>
+                <li><a href="{% url 'rs' %}">Rio Grande do Sul</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1 id="title1">História</h1>
+            <p>
+                No começo do século XVI, a região que é hoje o estado catarinense era povoada pelos carijós, tribo do grupo tupi-guarani. Estes indígenas foram catequizados (educados e apaziguados na fé católica) desde 1549.
+                <br><br>
+                As expedições vindas de Portugal e Espanha desbravaram a costa catarinense, a partir dos primeiros anos da descoberta do Brasil.[18] Sebastião Caboto, viajando ao rio da Prata, percorreu a ilha então denominada dos Patos e a chamou de Santa Catarina em 1526. D. João III concedeu as terras continentais para Pero Lopes de Sousa em 1534. No entanto, as terras ficaram desabitadas, exploradas por jesuítas, povoadores espanhóis e portugueses, porém, sem estabelecimento de população, em todo o século XVI.
+                <br><br>
+                Desde o começo da colonização do Brasil, as terras da região sul não despertaram muito interesse dos colonizadores portugueses. Isso devido à ausência de metais preciosos e ao seu clima mais frio (visto que as geadas dificultavam o cultivo de cana-de-açúcar). Os portugueses só começaram a se interessar pela região em meados do século XVII. A povoação de Nossa Senhora da Graça do Rio de São Francisco foi estabelecida por Manuel Lourenço de Andrade e seus amigos, em 1658. A atual cidade foi o primeiro povoado permanente na região.[18] O povoado de Nossa Senhora do Desterro, na ilha de Santa Catarina, foi criado pelo bandeirante paulista Francisco Dias Velho, em 1675. Nessa época, o notável povoador esteve junto de seus herdeiros, escravos e criados. Em 1676, a povoação de Laguna foi iniciada por Domingos de Brito Peixoto. A Capitania de Santa Catarina, vinculada à de São Paulo, foi fundada em 1738. Foi desmembrada de São Paulo e incorporada à do Rio de Janeiro, em 1739.
+                <br><br>
+                A partir da década de 1740, por iniciativa de Alexandre de Gusmão, ministro do rei D. João V, Portugal inicia um projeto de colonização de povoamento no sul do Brasil, visando garantir a posse do território disputado pelos espanhóis. Com esse objetivo, recorreu à imigração proveniente da Ilha da Madeira e dos Açores. Um sistema defensivo insular foi implantado. De 1748 a 1756, cerca de cinco mil imigrantes açorianos começaram a povoar a ilha e o litoral da capitania. Disputas entre Portugal e Espanha levaram à ocupação e à destruição da ilha de Santa Catarina por tropas espanholas em 1777. O Tratado de Santo Ildefonso forçou os espanhóis a entregarem a região invadida.
+                <br><br>
+                A Capitania de Nossa Senhora do Rosário de Paranaguá foi fundada pelo Marquês de Cascais em 1656. Substituiu a Capitania de Santana, que teve início na foz da baía de Paranaguá e fim na atual cidade catarinense de Laguna. Tem como limites a de Santo Amaro (parte da segunda seção da de São Vicente) ao norte, as águas salgadas do oceano Atlântico a leste. E o Governo do Rio da Prata e do Paraguai a oeste. Estes estados extintos eram delimitados pelo Tratado de Tordesilhas.
+                <br><br>
+                A capitania foi elevada à categoria de província, com a declaração da independência do Brasil. A província de Santa Catarina sofreu profundas consequências da Revolução Farroupilha, ocorrida no Rio Grande do Sul em 1835. Os revolucionários, chefiados por Giuseppe Garibaldi e David Canabarro, invadiram Laguna e declararam a República Juliana, em julho de 1839. Derrotados pelas tropas do Império do Brasil, os rebeldes deixaram Laguna.[18] O novo país sul-americano teve curta duração, pois, quando sua independência foi proclamada, deixou de pagar à República Rio Grandense por falta de dinheiro.[28] As últimas trincheiras farroupilhas foram demolidas, em 1840. A colonização europeia, especialmente alemã e, em quantidade muito pequena, italiana, foi impulsionada no segundo meado do século XIX. Foram criadas as colônias de Dona Francisca, mais tarde Joinville, em 1850; Blumenau em 1852; e Brusque em 1860.
+            </p>
+            <h1 id="title2">Geomorfologia</h1>
+            <p>
+                Santa Catarina possui 77% de seu território além de 300 metros e 52% além de 600 metros. Destaca-se dentre as unidades federativas brasileiras de relevo mais alto. Quatro unidades geomorfológicas, que vão do litoral ao interior, formam o relevo estadual:[48] baixada litorânea, Serra do Mar, planalto paleozóico e basáltico. As menores altitudes estão na baixada litorânea, que engloba as terras localizadas aquém de 200 metros. Na parte norte, é bem larga, entrando sertão adentro, por meio dos vales dos rios que correm da serra do Mar. Enquanto isso, em direção ao sul, encurta-se gradativamente.
+                <br><br>
+                A Serra do Mar ocupa a baixada litorânea na parte oeste. No norte do estado, compõe a borda montanhosa de um planalto razoavelmente médio. Possui traço muito diferente do que abriga em demais estados como Paraná e São Paulo. Em Santa Catarina, constitui uma faixa de montanhas, com pontos acima de mil metros. Esta é formada por um grupo de maciços isolados pelos vales profundos dos rios que descem para o oceano Atlântico. Pela retaguarda da serra do Mar, prolonga-se o planalto paleozóico. Sua área aplainada está dividida em espaços separados pelos rios, que descem para leste. O planalto paleozóico diminui de altitude de norte a sul. Na porção sul do estado mistura-se com a planície litorânea, uma vez que a Serra do Mar não se prolonga até essa região de Santa Catarina.
+                <br><br>
+                O planalto basáltico compreende boa parte do território da unidade federativa. Constituído por sedimentos basálticos (derrames de lava), alternados com depósitos areníticos, tem como limite a leste uma borda montanhosa denominada de Serra Geral. No norte do estado, a borda do planalto basáltico está situada no sertão. Em direção ao sul, vai chegando progressivamente perto do litoral até que, na divisa com o Rio Grande do Sul, começa a descer diretamente sobre o mar. A área do planalto é razoavelmente média e curva-se levemente para oeste. Os rios, que descem em direção ao estado vizinho do Paraná, cavaram nele profundos vales. São pouco férteis os terrenos da floresta ombrófila mista, da mesma forma que os solos dos campos, os quais se aproveitam para a pecuária leiteira e de corte. Os solos de floresta subtropical úmida caracterizam-se por sua fertilidade, apesar de seu grande desgaste por sua utilização imprópria.
+            </p>
+            <h1 id="title3">Clima</h1>
+            <p>
+                O território catarinense abrange dois tipos climáticos. São eles: o subtropical úmido com verões cálidos (Cfa) e o úmido com estios amenos (Cfb). Ambos tem as quatro estações do ano bem definidas e regime de chuvas bem distribuídas ao longo do ano. O subtropical Cfa aparece na baixada litorânea e nas porções de menor altitude do planalto (extremidade oeste e vale do rio Uruguai). Possui temperaturas médias registradas de 20 °C, na baixada e no vale do Uruguai e 18 °C na extremidade oeste.
+                <br><br>
+                O subtropical Cfb aparece no restante do planalto. Possui temperaturas médias registradas entre 16 e 18 °C, porém, as de verão e de inverno são diferentes, por isso há grande amplitude térmica ao longo do ano. Os invernos são bem frios: em algumas regiões, são observados anualmente cerca de 25 dias de geada. Nessa época, é mais comum a incursão de massas de ar polares, algumas delas mais fortes e abrangentes. Estas temperaturas caíram para abaixo de zero em várias cidades. A maioria delas estão situadas no Meio Oeste, Planalto Norte e Planalto Sul. Nesta última se localizam Bom Jardim da Serra, São Joaquim, Urubici e Urupema, que estão entre os municípios mais frios do país.
+                <br><br>
+                Boa parte do Rio Grande do Sul se situa em latitudes mais inferiores a Santa Catarina. Apesar disso, é nas áreas mais elevadas do planalto sul catarinense em que há uma maior ocorrência de quedas de neve no Brasil nos meses de inverno. Santa Catarina também detém o recorde de mais baixa temperatura registrada em território brasileiro por órgãos oficiais. Esta temperatura foi de −14 °C em Caçador em 11 de junho de 1952. Por outro lado, a maior temperatura atingiu 44,6 °C em Orleans no dia 6 de janeiro de 1963. As localidades mais quentes do estado estão localizadas nas regiões do litoral sul, Vale do Itajaí e extremo oeste. Isso porque nesta está a cidade tida como a mais quente de Santa Catarina, Itapiranga. Nessas regiões, as temperaturas podem ultrapassar os 40 °C no verão ou em outras ocasiões extremas.
+            </p>
+            <h1 id="title4">Cultura</h1>
+            <p>
+                A origem da cultura de Santa Catarina se encontra na diversidade. Esta resulta da presença dos portugueses (açorianos e madeirenses), dos alemães do Vale do Itajaí, e pela pequena Itália localizada ao sul. Estes, após sua chegada a Santa Catarina trouxeram uma enorme bagagem cultural. Esses povos são caracterizados pela importância das tradições da sua população e por festividades religiosas que foram muito importantes para a formação da cultura do estado.
+                <br><br>
+                Santa Catarina reflete todos os povos colonizadores que constituem harmoniosamente a cultura desse estado. Por esse motivo, pode-se dizer que a culinária de Santa Catarina é abundante em frutos do mar (influência de Portugal), tais como peixes, camarões e mariscos. Estes podem apresentar variações no seu modo de preparo e segundo a espécie. Podem ser destacados como alguns alimentos mais comuns: peixe ensopado (com sal e ervas de cheiro) acompanhado com pirão e farinha de mandioca. Peixe frito (oferecido em pedaços e envolvido em farinha de mandioca ou de trigo até fritar), grelhado na brasa e/ou na folha de bananeira. Peixe assado, camarão à milanesa, caldo de camarão, ovas de tainha, entre outros. Além disso, existe a geleia de morango, bolo de mel, kutiá, torta de ricota e vereniqué (pastel cozido). No artesanato, destacam-se os artigos feitos de vime, lã e couro. Renda de bilros. A produção de bonecos de pano. Pintura em porcelana e a arte de escultura em madeira, que merece destaque por ter artesãos que fabricam peças para ilustres colecionadores.
+                <br><br>
+                Entre os principais catarinenses ilustres nascidos dentro e fora do estado, podemos destacar: Antonieta de Barros, florianopolitana, professora e política; Atílio Fontana, gaúcho, empresário e político. Bruno e Hermann Hering, alemães, industriais; Carl Hoepcke, alemão, industrial. Carlos Renaux, alemão, político, comerciante e industrial; Diomício Freitas, orleanense, empresário e político. família Schürmann, florianopolitana, viajantes de veleiro; Felipe Schmidt, lageano, politico; Gustavo Kuerten, florianopolitano, ex-tenista. Hercílio Luz, florianopolitano, engenheiro e político; João David Ferreira Lima, advogado e professor. José Arthur Boiteux, tijuquense, jornalista, historiador e advogado; Juarez Machado, joinvillense, artista plástico. Lindolf Bell, timboense, poeta; Nereu Ramos, lageano, advogado e político; Paulo Evaristo Arns, forquilinhense, religioso. Raulino Reitz, religioso, botânico e historiador; Santa Paulina, italiana, religiosa. Vera Fischer, blumenauense, atriz; Willy Zumblick, tubaronense, pintor.
+            </p>
+        </main>
+        <footer>
+            <p>Feito por: Ruan Venâncio e Thiago</p>
+            <img src="{% static 'sul/img/logo_ifce.png' %}" id="logo-ifce" alt="">
+        </footer>
+    </div>
+    <section id="sumario">
+        <ul>
+            <li><a href="#title1">História</a></li>
+            <hr>
+            <li><a href="#title2">Geomorfologia</a></li>
+            <hr>
+            <li><a href="#title3">Clima</a></li>
+            <hr>
+            <li><a href="#title4">Cultura</a></li>
+            <hr>
+        </ul>
+    </section>
 </body>
 </html>
