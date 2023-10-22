@@ -1,0 +1,54 @@
+img{
+    width: inherit;
+    height: inherit;
+
+}
+
+@font-face {
+    font-family: RobotoSlab;
+    src: url(../font/RobotoSlab/RobotoSlab-VariableFont_wght.ttf) format('truetype');
+}
+
+#flex-container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#text{
+    color: #70869d;
+    text-align: center;
+    font-family: RobotoSlab;
+    font-weight: 900;
+    font-size: 70px;
+    color: black;
+}
+
+#flex-container div{
+    width: 80%;
+    height: 80%;
+    font-weight: bold;
+    text-align: center;
+}
+
+#flex-container a{
+    width: inherit;
+    height: inherit;
+}
+
+#logo-ifce{
+    width: 20%;
+}
+
+body{
+    background-color: #f4f6f9;
+}
+
+footer{
+    margin-top: 50px;
+    background-color: #000000;
+    border-radius: 0px  0px 20px 20px;
+    color: #ffffff;
+    text-align: center;
+}
